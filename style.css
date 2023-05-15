@@ -1,0 +1,135 @@
+body {
+    height: 100vh;
+    margin: 0;
+    width: auto;
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(114, 114, 106);
+    overflow: scroll;
+    
+}
+.back {
+    background-color: rgb(78, 78, 78);
+    background-image: url(./back.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.header{
+    display: flex;
+    margin: 8px 20px;
+    height: 100px;
+}
+.logo img {
+    width: 55px;
+    height: 45px;
+    border-radius: 25%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.hright{
+    display: flex;
+    margin-left: auto;
+    justify-content: flex-end;
+    justify-content: space-between;
+    gap: 20px;
+}
+ul{
+    list-style-type: none;
+}
+a{
+    color: rgb(5, 13, 61);
+    text-decoration: none;
+    font-size: 24px;
+}
+.intro{
+    display: flex;
+    flex: auto;
+    margin: 30px;
+    color: antiquewhite;
+}
+.heading{
+    font-size: 30px;
+    color: antiquewhite;
+    font-weight: 800;
+}
+.dis {
+    display: flex;
+    flex-wrap: wrap;
+    width: 300px;
+    margin: 0px 50px;
+}
+button {
+    background-color: rgb(49, 49, 133);
+    color: aliceblue;
+    padding: 10px;
+    border-radius: 45%;
+    h
+}
+.inhead {
+    text-align: center;
+    font-size: 25px;
+    font-weight: 800;
+    padding-top: 30px;
+}
+.anime{
+    display: flex;
+    flex: auto;
+    justify-content: space-evenly;
+}
+.k {
+    width: 150px;
+    height: 300px;
+    color: rgb(36, 32, 33);
+    font-size: 20px;
+    text-decoration: wavy;
+    padding: 0 25px;
+}
+.k img{
+    height: 200px;
+    width: 150px;
+    border-radius: 25%;
+    box-shadow: black;
+}
+.image img {
+    height: 200px;
+    width: 500px;
+    border-radius: 10%;
+}
+.quote {
+    display: flex;
+    flex-direction: column;
+    padding: 70px 250px;
+    background-color: rgb(180, 180, 152);
+    
+}
+.text {
+    font-size: 20px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: larger;
+}
+.text2 {
+    margin-left: auto;
+    font-size: 20px;
+    font-weight: 800;
+}
+.signup{
+    display: flex;
+    height: 1000px;
+    gap: 40px;
+    margin: 20px 200px;
+    padding: 20px;
+    background-color: #3882F6;
+}
+.signup button {
+    background-color: #3882F6;
+    border: 1px solid white;
+    border-radius: 10%;
+}
+.footer {
+    display: flex;
+    justify-content: center;
+    margin-top: 0px;
+    padding: 20px 0;
+    background-color: rgb(119, 103, 82);
+}
